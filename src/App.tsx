@@ -1,10 +1,15 @@
 import React from 'react';
+import Layout from './components/Layout';
+
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
-    <a href="https://github.com/ErickValdez26">
-      <h2>Erick Valdez</h2>
-    </a>
+    <>
+      <Layout />
+
+      <GlobalStyles />
+    </>
   );
 }
 
